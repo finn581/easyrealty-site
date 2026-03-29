@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyRealty - The All-in-One Real Estate Platform</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0c; color: #f5f5f5; }
+        .hero { text-align: center; padding: 80px 20px 60px; background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0c 100%); }
+        .hero h1 { font-size: 48px; margin-bottom: 12px; }
+        .hero h1 span { color: #D9A621; }
+        .hero p { font-size: 18px; color: #aaa; max-width: 600px; margin: 0 auto 30px; }
+        .badge { display: inline-block; background: #D9A621; color: #000; padding: 12px 32px; border-radius: 30px; font-weight: 700; font-size: 16px; text-decoration: none; }
+        .badge:hover { background: #c4911d; }
+        .features { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+        .features h2 { font-size: 28px; margin-bottom: 40px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+        .card { background: #1a1a1e; border-radius: 16px; padding: 28px; }
+        .card h3 { font-size: 18px; margin-bottom: 8px; color: #D9A621; }
+        .card p { font-size: 14px; color: #999; line-height: 1.5; }
+        .pricing { max-width: 700px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        .pricing h2 { font-size: 28px; margin-bottom: 40px; }
+        .price-cards { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .price-card { background: #1a1a1e; border-radius: 16px; padding: 32px; flex: 1; min-width: 200px; max-width: 300px; }
+        .price-card.featured { border: 2px solid #D9A621; }
+        .price-card h3 { font-size: 20px; margin-bottom: 4px; }
+        .price-card .price { font-size: 36px; font-weight: 800; color: #D9A621; margin: 12px 0; }
+        .price-card .price span { font-size: 16px; font-weight: 400; color: #888; }
+        .price-card ul { text-align: left; list-style: none; margin-top: 16px; }
+        .price-card ul li { font-size: 13px; color: #aaa; padding: 4px 0; }
+        .price-card ul li::before { content: "✓ "; color: #D9A621; }
+        .footer { text-align: center; padding: 40px 20px; border-top: 1px solid #222; color: #666; font-size: 13px; }
+        .footer a { color: #D9A621; text-decoration: none; }
+        .nav { display: flex; justify-content: space-between; align-items: center; max-width: 900px; margin: 0 auto; padding: 20px; }
+        .nav a { color: #aaa; text-decoration: none; font-size: 14px; }
+        .nav a:hover { color: #D9A621; }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <strong style="color: #D9A621; font-size: 18px;">EasyRealty</strong>
+        <div>
+            <a href="support.html" style="margin-right: 20px;">Support</a>
+            <a href="privacy.html">Privacy</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Easy<span>Realty</span></h1>
+        <p>The all-in-one platform for real estate professionals. E-signatures, 3D room scanning, AI tools, CRM, and 19+ premium features — all in one app.</p>
+        <a href="https://apps.apple.com/app/id6760910225" class="badge">Download on the App Store</a>
+    </div>
+
+    <div class="features">
+        <h2>Everything You Need to Close More Deals</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>EasySign E-Signatures</h3>
+                <p>Professional contracts for all 50 states. Biometric authentication, cryptographic audit trails, and interactive form filling.</p>
+            </div>
+            <div class="card">
+                <h3>RoomScan Pro</h3>
+                <p>LiDAR-powered 3D room scanning. Photo-realistic models, architectural blueprints, floor plans with dimensions, and AR viewing.</p>
+            </div>
+            <div class="card">
+                <h3>AI-Powered Tools</h3>
+                <p>On-device AI assistant, proactive nudges for cold leads and deadlines, listing description writer, and investment analyzer.</p>
+            </div>
+            <div class="card">
+                <h3>Smart CRM</h3>
+                <p>Lead scoring, drip campaigns, auto-updating transaction checklists, and a visual deal pipeline from lead to closing.</p>
+            </div>
+            <div class="card">
+                <h3>Document Scanner</h3>
+                <p>Scan paper documents with VisionKit OCR. Auto-detect signature fields. Import from any app via Share Extension.</p>
+            </div>
+            <div class="card">
+                <h3>Marketing Studio</h3>
+                <p>Property flyers, 7-day social media content generator, open house management, and branded market reports.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing">
+        <h2>Simple Pricing</h2>
+        <div class="price-cards">
+            <div class="price-card">
+                <h3>Free</h3>
+                <div class="price">$0</div>
+                <ul>
+                    <li>5 contacts, 2 deals</li>
+                    <li>Basic property search</li>
+                    <li>Mortgage calculator</li>
+                    <li>3 showings/month</li>
+                </ul>
+            </div>
+            <div class="price-card featured">
+                <h3>Pro</h3>
+                <div class="price">$49.99<span>/mo</span></div>
+                <ul>
+                    <li>Everything unlimited</li>
+                    <li>EasySign e-signatures</li>
+                    <li>RoomScan Pro 3D scanning</li>
+                    <li>AI tools & proactive nudges</li>
+                    <li>Marketing studio</li>
+                    <li>Investment analyzer</li>
+                    <li>Mileage tracker</li>
+                    <li>19+ premium features</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <h3>Team</h3>
+                <div class="price">$149.99<span>/mo</span></div>
+                <ul>
+                    <li>Everything in Pro</li>
+                    <li>Up to 10 agent seats</li>
+                    <li>Lead routing</li>
+                    <li>Team pipeline</li>
+                    <li>Admin controls</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 EasyRealty. All rights reserved.</p>
+        <p style="margin-top: 8px;">
+            <a href="support.html">Support</a> &nbsp;|&nbsp;
+            <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+            <a href="mailto:support@easyrealty.app">support@easyrealty.app</a>
+        </p>
+    </div>
+</body>
+</html>
